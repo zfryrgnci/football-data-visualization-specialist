@@ -1,0 +1,1 @@
+from .recruitment_frontier import RecruitmentEfficiencyAnalyzer

@@ -1,0 +1,773 @@
+{
+  "fixture": "Górnik Zabrze 2 - 1 Legia Warszawa",
+  "competition": "PKO Bank Polski Ekstraklasa 2025-2026",
+  "venue": "Arena Zabrze (Stadion im. Ernesta Pohla)",
+  "starters": {
+    "Filip Majchrowicz (GK)": {
+      "num": 1,
+      "pos": "GK",
+      "x": 12.0,
+      "y": 40.0,
+      "passes": 28,
+      "acc": 78
+    },
+    "Dominik Szala (RB)": {
+      "num": 26,
+      "pos": "RB",
+      "x": 38.0,
+      "y": 68.0,
+      "passes": 42,
+      "acc": 83
+    },
+    "Kryspin Szcześniak (CB)": {
+      "num": 25,
+      "pos": "CB",
+      "x": 32.0,
+      "y": 49.0,
+      "passes": 55,
+      "acc": 88
+    },
+    "Rafał Janicki (CB)": {
+      "num": 20,
+      "pos": "CB",
+      "x": 31.0,
+      "y": 31.0,
+      "passes": 52,
+      "acc": 87
+    },
+    "Erik Janża (LB)": {
+      "num": 64,
+      "pos": "LB",
+      "x": 45.0,
+      "y": 14.0,
+      "passes": 61,
+      "acc": 81
+    },
+    "Damian Rasak (DM)": {
+      "num": 6,
+      "pos": "DM",
+      "x": 52.0,
+      "y": 38.0,
+      "passes": 68,
+      "acc": 89
+    },
+    "Patrik Hellebrand (CM)": {
+      "num": 8,
+      "pos": "CM",
+      "x": 58.0,
+      "y": 50.0,
+      "passes": 64,
+      "acc": 90
+    },
+    "Taofeek Ismaheel (RW)": {
+      "num": 17,
+      "pos": "RW",
+      "x": 76.0,
+      "y": 66.0,
+      "passes": 34,
+      "acc": 76
+    },
+    "Lukas Podolski (AM)": {
+      "num": 10,
+      "pos": "AM",
+      "x": 74.0,
+      "y": 34.0,
+      "passes": 49,
+      "acc": 82
+    },
+    "Kamil Lukoszek (LW)": {
+      "num": 11,
+      "pos": "LW",
+      "x": 78.0,
+      "y": 16.0,
+      "passes": 31,
+      "acc": 74
+    },
+    "Luka Zahović (CF)": {
+      "num": 7,
+      "pos": "CF",
+      "x": 92.0,
+      "y": 41.0,
+      "passes": 22,
+      "acc": 72
+    }
+  },
+  "pass_links": [
+    [
+      "Damian Rasak (DM)",
+      "Patrik Hellebrand (CM)",
+      18
+    ],
+    [
+      "Patrik Hellebrand (CM)",
+      "Damian Rasak (DM)",
+      15
+    ],
+    [
+      "Damian Rasak (DM)",
+      "Lukas Podolski (AM)",
+      14
+    ],
+    [
+      "Erik Janża (LB)",
+      "Damian Rasak (DM)",
+      16
+    ],
+    [
+      "Erik Janża (LB)",
+      "Lukas Podolski (AM)",
+      12
+    ],
+    [
+      "Erik Janża (LB)",
+      "Kamil Lukoszek (LW)",
+      15
+    ],
+    [
+      "Rafał Janicki (CB)",
+      "Erik Janża (LB)",
+      14
+    ],
+    [
+      "Rafał Janicki (CB)",
+      "Damian Rasak (DM)",
+      19
+    ],
+    [
+      "Kryspin Szcześniak (CB)",
+      "Rafał Janicki (CB)",
+      17
+    ],
+    [
+      "Kryspin Szcześniak (CB)",
+      "Dominik Szala (RB)",
+      16
+    ],
+    [
+      "Kryspin Szcześniak (CB)",
+      "Patrik Hellebrand (CM)",
+      13
+    ],
+    [
+      "Dominik Szala (RB)",
+      "Taofeek Ismaheel (RW)",
+      16
+    ],
+    [
+      "Dominik Szala (RB)",
+      "Patrik Hellebrand (CM)",
+      11
+    ],
+    [
+      "Patrik Hellebrand (CM)",
+      "Taofeek Ismaheel (RW)",
+      12
+    ],
+    [
+      "Lukas Podolski (AM)",
+      "Taofeek Ismaheel (RW)",
+      9
+    ],
+    [
+      "Lukas Podolski (AM)",
+      "Luka Zahović (CF)",
+      11
+    ],
+    [
+      "Lukas Podolski (AM)",
+      "Kamil Lukoszek (LW)",
+      10
+    ],
+    [
+      "Taofeek Ismaheel (RW)",
+      "Luka Zahović (CF)",
+      8
+    ],
+    [
+      "Kamil Lukoszek (LW)",
+      "Luka Zahović (CF)",
+      7
+    ],
+    [
+      "Filip Majchrowicz (GK)",
+      "Rafał Janicki (CB)",
+      9
+    ],
+    [
+      "Filip Majchrowicz (GK)",
+      "Kryspin Szcześniak (CB)",
+      8
+    ]
+  ],
+  "gornik_shots": [
+    {
+      "minute": 12,
+      "player": "Lukas Podolski",
+      "x": 98.5,
+      "y": 32.0,
+      "xG": 0.08,
+      "outcome": "Saved",
+      "type": "Open Play",
+      "body": "Left Foot"
+    },
+    {
+      "minute": 19,
+      "player": "Taofeek Ismaheel",
+      "x": 105.0,
+      "y": 48.0,
+      "xG": 0.14,
+      "outcome": "Blocked",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 27,
+      "player": "Luka Zahović",
+      "x": 112.5,
+      "y": 38.5,
+      "xG": 0.38,
+      "outcome": "Goal",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 34,
+      "player": "Damian Rasak",
+      "x": 94.0,
+      "y": 43.0,
+      "xG": 0.05,
+      "outcome": "Off Target",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 41,
+      "player": "Kamil Lukoszek",
+      "x": 108.0,
+      "y": 26.0,
+      "xG": 0.12,
+      "outcome": "Saved",
+      "type": "Open Play",
+      "body": "Left Foot"
+    },
+    {
+      "minute": 48,
+      "player": "Lukas Podolski",
+      "x": 101.0,
+      "y": 44.0,
+      "xG": 0.09,
+      "outcome": "Off Target",
+      "type": "Direct Free Kick",
+      "body": "Left Foot"
+    },
+    {
+      "minute": 54,
+      "player": "Patrik Hellebrand",
+      "x": 96.0,
+      "y": 36.0,
+      "xG": 0.06,
+      "outcome": "Blocked",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 62,
+      "player": "Erik Janża",
+      "x": 103.0,
+      "y": 21.0,
+      "xG": 0.07,
+      "outcome": "Off Target",
+      "type": "Open Play",
+      "body": "Left Foot"
+    },
+    {
+      "minute": 69,
+      "player": "Taofeek Ismaheel",
+      "x": 110.0,
+      "y": 46.0,
+      "xG": 0.28,
+      "outcome": "Saved",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 74,
+      "player": "Kryspin Szcześniak",
+      "x": 113.0,
+      "y": 41.0,
+      "xG": 0.16,
+      "outcome": "Off Target",
+      "type": "Corner",
+      "body": "Head"
+    },
+    {
+      "minute": 81,
+      "player": "Lukas Podolski",
+      "x": 102.5,
+      "y": 37.0,
+      "xG": 0.45,
+      "outcome": "Goal",
+      "type": "Open Play",
+      "body": "Left Foot"
+    },
+    {
+      "minute": 86,
+      "player": "Luka Zahović",
+      "x": 107.0,
+      "y": 44.0,
+      "xG": 0.19,
+      "outcome": "Blocked",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 89,
+      "player": "Damian Rasak",
+      "x": 95.0,
+      "y": 39.0,
+      "xG": 0.04,
+      "outcome": "Saved",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 93,
+      "player": "Sinan Bakış",
+      "x": 109.0,
+      "y": 42.0,
+      "xG": 0.12,
+      "outcome": "Off Target",
+      "type": "Open Play",
+      "body": "Head"
+    }
+  ],
+  "legia_shots": [
+    {
+      "minute": 8,
+      "player": "Bartosz Kapustka",
+      "x": 97.0,
+      "y": 45.0,
+      "xG": 0.06,
+      "outcome": "Saved",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 22,
+      "player": "Marc Gual",
+      "x": 104.0,
+      "y": 36.0,
+      "xG": 0.11,
+      "outcome": "Off Target",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 31,
+      "player": "Luquinhas",
+      "x": 101.0,
+      "y": 49.0,
+      "xG": 0.08,
+      "outcome": "Blocked",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 44,
+      "player": "Marc Gual",
+      "x": 111.0,
+      "y": 40.0,
+      "xG": 0.32,
+      "outcome": "Saved",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 52,
+      "player": "Paweł Wszołek",
+      "x": 108.0,
+      "y": 55.0,
+      "xG": 0.1,
+      "outcome": "Blocked",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 58,
+      "player": "Marc Gual",
+      "x": 112.0,
+      "y": 39.0,
+      "xG": 0.24,
+      "outcome": "Goal",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 67,
+      "player": "Bartosz Kapustka",
+      "x": 95.0,
+      "y": 38.0,
+      "xG": 0.05,
+      "outcome": "Off Target",
+      "type": "Open Play",
+      "body": "Left Foot"
+    },
+    {
+      "minute": 78,
+      "player": "Ryoya Morishita",
+      "x": 103.0,
+      "y": 28.0,
+      "xG": 0.07,
+      "outcome": "Saved",
+      "type": "Open Play",
+      "body": "Right Foot"
+    },
+    {
+      "minute": 84,
+      "player": "Marc Gual",
+      "x": 106.0,
+      "y": 42.0,
+      "xG": 0.11,
+      "outcome": "Off Target",
+      "type": "Corner",
+      "body": "Head"
+    },
+    {
+      "minute": 91,
+      "player": "Radovan Pankov",
+      "x": 114.0,
+      "y": 40.0,
+      "xG": 0.04,
+      "outcome": "Off Target",
+      "type": "Corner",
+      "body": "Head"
+    }
+  ],
+  "defensive_actions": [
+    {
+      "x": 51.22654311430095,
+      "y": 17.083124153634408,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 85.34084867257569,
+      "y": 42.064791126951434,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 60.186468992116616,
+      "y": 9.541860005970054,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 79.93291899652262,
+      "y": 27.678672180094555,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 94.04958224218754,
+      "y": 55.467581758482005,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 56.68601403829823,
+      "y": 27.121509451633507,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 92.10591628122064,
+      "y": 38.48332995697891,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 60.813642803472824,
+      "y": 40.49899039257826,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 60.74922289924694,
+      "y": 44.33887258794697,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 66.93846929874432,
+      "y": 55.759143649207154,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 62.55996255465223,
+      "y": 24.073305399586356,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 63.1142142472698,
+      "y": 33.60848983196717,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 66.91452658728409,
+      "y": 51.42172518503004,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 76.11872554460689,
+      "y": 61.59385616545423,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 56.63914451173066,
+      "y": 46.996962214919954,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 78.18247785829,
+      "y": 27.86403268638645,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 65.0931652582467,
+      "y": 8.500398264061658,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 80.69600773176029,
+      "y": 36.12103235824235,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 79.29189847353399,
+      "y": 43.70889132183124,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 65.40768679435178,
+      "y": 11.329549611655256,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 48.19066344996984,
+      "y": 4.0,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 60.12341124039881,
+      "y": 76.0,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 49.968736546748005,
+      "y": 4.0,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 81.47736487419745,
+      "y": 76.0,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 72.17089491363724,
+      "y": 45.19718310495928,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 63.66165096898748,
+      "y": 7.703369850818923,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 47.69003315159133,
+      "y": 34.29844007082667,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 60.88162523958359,
+      "y": 37.92688730014104,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 79.61054753499423,
+      "y": 29.526919025493626,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 79.89603458966457,
+      "y": 29.64478522175014,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 82.53535430012059,
+      "y": 41.55461620732162,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 61.89837522709883,
+      "y": 41.24729308988002,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 63.89045620979407,
+      "y": 42.036416278239486,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 78.61348677924461,
+      "y": 38.4301192285183,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 62.826036060047066,
+      "y": 19.776708311605077,
+      "type": "High Pressure / Turnover"
+    },
+    {
+      "x": 41.791780192917145,
+      "y": 45.572355622443595,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 24.18057149072479,
+      "y": 53.36790844673217,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 24.018159673976644,
+      "y": 56.46754865974229,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 42.87863327187018,
+      "y": 46.71464836156911,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 32.23004840832964,
+      "y": 49.212476522663245,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 46.763719952411805,
+      "y": 49.47763073773078,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 29.297499782737624,
+      "y": 44.27851171768742,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 47.32034986295036,
+      "y": 75.18557088890725,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 33.94787025500804,
+      "y": 53.72612969810289,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 47.34480520084318,
+      "y": 27.00152001616378,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 53.82078318061481,
+      "y": 22.957045054664867,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 44.08985515032976,
+      "y": 44.885116472753054,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 36.5557555999816,
+      "y": 76.0,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 32.98744764673199,
+      "y": 34.922470516342266,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 49.31478807397795,
+      "y": 52.18886044938853,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 48.82098920958554,
+      "y": 41.86991011745781,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 39.16942617012163,
+      "y": 70.4149698079132,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 27.640459204193036,
+      "y": 38.35396729453343,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 43.98254071425445,
+      "y": 36.866226878594595,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 30.298541207169645,
+      "y": 49.895752204584355,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 49.35805666491494,
+      "y": 37.746650195106284,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 34.31410379189251,
+      "y": 29.636991589065104,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 33.040231565942655,
+      "y": 57.33769727728297,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 36.81062870693657,
+      "y": 27.12014942511539,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 38.623623803236626,
+      "y": 56.81910417577665,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 30.381143364525713,
+      "y": 18.742316486470987,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 57.90825159872752,
+      "y": 17.943530399308045,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 32.409774361442146,
+      "y": 43.71405618973871,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 33.27572298755709,
+      "y": 38.8014264855197,
+      "type": "Tackle / Recovery"
+    },
+    {
+      "x": 41.76838167874594,
+      "y": 4.0,
+      "type": "Tackle / Recovery"
+    }
+  ]
+}

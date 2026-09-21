@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zafer Yorgancı | Football Data Visualization Specialist & AI Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+</head>
+<body>
+
+  <!-- Header & Hero -->
+  <header>
+    <div class="container">
+      <div class="hero-badge">
+        <span>⚽</span> GÓRNIK ZABRZE & POLISH EKSTRAKLASA | 2025–2026 SEASON
+      </div>
+      <h1 class="hero-title">ZAFER YORGANCI</h1>
+      <div class="hero-subtitle">Football Data Visualization Specialist & AI Engineer</div>
+      <p class="hero-desc">
+        Specialized in translating high-dimensional tracking and event streams (Opta, Wyscout) into decisive tactical opposition dossiers, 
+        automated recruitment frameworks, and AI player archetype models. Built specifically for Turkish Süper Lig technical committees and sporting directors.
+      </p>
+
+      <!-- Primary Action Buttons (PDFs) -->
+      <div class="pdf-download-bar" style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
+        <a href="../Zafer_Yorganci_Futbol_CV_TR.pdf" class="btn-pdf primary" target="_blank" style="background: linear-gradient(135deg, #e11d48, #be123c); border-color: #f43f5e;">
+          🇹🇷 Türkçe Futbol CV (2 Sayfa PDF)
+        </a>
+        <a href="../Zafer_Yorganci_Football_CV_EN.pdf" class="btn-pdf primary" target="_blank">
+          🇬🇧 English Football CV (2-Page PDF)
+        </a>
+        <a href="../1_PreMatch_Opposition_Analysis_Gornik_Zabrze.pdf" class="btn-pdf" target="_blank">
+          ⚽ Maç Öncesi Rakip Analiz Dosyası (Teknik Heyet - 7 Sayfa)
+        </a>
+        <a href="../2_Recruitment_Scouting_Transfer_Intelligence.pdf" class="btn-pdf" target="_blank">
+          🎯 Transfer & Scouting Raporu (Sportif Direktörlük - 8 Sayfa)
+        </a>
+        <a href="../3_Season_Audit_Squad_Planning.pdf" class="btn-pdf" target="_blank">
+          📈 Kadro Yaş Eğrisi & Sezon Planlama (Yönetim Kurulu - 4 Sayfa)
+        </a>
+        <a href="../Gornik_Zabrze_Ekstraklasa_2025_2026_Portfolio.pdf" class="btn-pdf primary" target="_blank" style="background: linear-gradient(135deg, #0284c7, #0369a1);">
+          🏆 17 Sayfalık Eksiksiz Master Portfolyo (PDF)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Category Tabs Navigation -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" onclick="filterCategory('all')">Tüm Çalışmalar (16)</button>
+      <button class="tab-btn" onclick="filterCategory('recruitment')">Scouting & Transfer Zekası</button>
+      <button class="tab-btn" onclick="filterCategory('tactical')">Taktik & Maç Öncesi Rakip Analizi</button>
+      <button class="tab-btn" onclick="filterCategory('match')">Maç Sonu & xG Akışı</button>
+      <button class="tab-btn" onclick="filterCategory('ai')">Lig Makro & Yapay Zeka Modelleri</button>
+    </nav>
+
+    <!-- Visuals Grid -->
+    <div class="grid" id="visualsGrid">
+
+      <!-- 1. Damian Rasak Radar -->
+      <div class="card" data-cat="recruitment">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/01_pizza_radar_damian_rasak.png', 'Damian Rasak — Percentile Pizza Radar', '98th percentile defensive duel win rate (67.4%) and 6.82 progressive passes/90. Prime anchor target for Turkish Süper Lig pressing setups.')">
+          <span class="card-tag">Recruitment Radar</span>
+          <img src="../visuals/01_pizza_radar_damian_rasak.png" alt="Damian Rasak Pizza Radar" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Damian Rasak (29, DM/CM)</h3>
+          <div class="card-subtitle">The High-Tempo Transition Anchor | Górnik Zabrze</div>
+          <p class="card-desc">
+            Benchmark profile for a modern ball-winning #6 who doubles as a deep progression hub. Leads the league in duel efficiency while maintaining 86.8% pass accuracy.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Duel Win: <strong>67.4% (98th)</strong></span>
+            <span class="kpi-pill">PAdj Tackles: <strong>4.68/90</strong></span>
+            <span class="kpi-pill">Value: <strong>€1.8M</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Lukas Podolski Radar -->
+      <div class="card" data-cat="recruitment">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/02_pizza_radar_lukas_podolski.png', 'Lukas Podolski — Percentile Pizza Radar', '0.38 xA/90 and 7.95 progressive passes/90. Operating as an elite attacking conductor from the left halfspace.')">
+          <span class="card-tag">Recruitment Radar</span>
+          <img src="../visuals/02_pizza_radar_lukas_podolski.png" alt="Lukas Podolski Pizza Radar" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Lukas Podolski (40, AM/SS)</h3>
+          <div class="card-subtitle">Creative Fulcrum & Final-Third Threat | Górnik Zabrze</div>
+          <p class="card-desc">
+            World Cup winner functioning as Górnik's creative engine. Generates elite Expected Threat (xT > 0.34/90) and unbalances low blocks with disguised deliveries.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">xA: <strong>0.38/90 (97th)</strong></span>
+            <span class="kpi-pill">Prog Passes: <strong>7.95/90</strong></span>
+            <span class="kpi-pill">Key Passes: <strong>2.65/90</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Erik Janza Radar -->
+      <div class="card" data-cat="recruitment">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/03_pizza_radar_erik_janza.png', 'Erik Janża — Percentile Pizza Radar', 'Slovenian international left-back recording 0.28 xA/90 and 5.85 progressive passes/90 with elite set-piece deliveries.')">
+          <span class="card-tag">Recruitment Radar</span>
+          <img src="../visuals/03_pizza_radar_erik_janza.png" alt="Erik Janza Pizza Radar" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Erik Janża (32, LB/LWB)</h3>
+          <div class="card-subtitle">Wide Delivery Architect & Set-Piece Master | Górnik Zabrze</div>
+          <p class="card-desc">
+            Generates 42% of Górnik's progressive flank volume. Outstanding crossing execution combined with 61.8% defensive duel win rate.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">xA: <strong>0.28/90 (94th)</strong></span>
+            <span class="kpi-pill">Key Passes: <strong>2.10/90</strong></span>
+            <span class="kpi-pill">Value: <strong>€1.2M</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Midfield Creativity Scatter -->
+      <div class="card" data-cat="recruitment">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/04_scatter_midfield_creativity_progression.png', 'Midfield Creativity & Progression Scatter Plot', 'Mapping progressive passes vs xA per 90 across all Ekstraklasa central midfielders. Bubble size = Expected Threat (xT).')">
+          <span class="card-tag">Scouting Matrix</span>
+          <img src="../visuals/04_scatter_midfield_creativity_progression.png" alt="Midfield Creativity Scatter" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Midfield Progression Matrix</h3>
+          <div class="card-subtitle">xA/90 vs Progressive Passes/90 | 140 Midfielders</div>
+          <p class="card-desc">
+            Identifies league outliers in ball advancement. Demonstrates Damian Rasak's rare status as both a high-volume progressive passer and elite defensive stopper.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Cohort: <strong>140 Midfielders</strong></span>
+            <span class="kpi-pill">Top Metric: <strong>Prog Passes & xA</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Pressing Recoveries Scatter -->
+      <div class="card" data-cat="recruitment">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/05_scatter_pressing_recoveries.png', 'Defensive Activity vs Duel Win %', 'Possession-adjusted tackles + interceptions vs defensive duel success rate. Isolates high-efficiency ball-winners.')">
+          <span class="card-tag">Scouting Matrix</span>
+          <img src="../visuals/05_scatter_pressing_recoveries.png" alt="Pressing Recoveries Scatter" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Ball-Winning & Duel Efficiency</h3>
+          <div class="card-subtitle">PAdj Tackles+Int/90 vs Duel Win % | Defensive Cohort</div>
+          <p class="card-desc">
+            Evaluates which players dominate physical contact without conceding fouls or structural space. Essential benchmark for Süper Lig recruitment.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Top Duelist: <strong>D. Rasak (67.4%)</strong></span>
+            <span class="kpi-pill">Top Prospect: <strong>D. Szala (68.2%)</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Undervalued Gems Scatter -->
+      <div class="card" data-cat="recruitment">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/06_scatter_undervalued_super_lig_gems.png', 'Undervalued Ekstraklasa Gems for Süper Lig', 'Identifying players under €2.5M transfer valuation with top-quartile attacking threat (npxG + xA/90).')">
+          <span class="card-tag">Süper Lig Target Matrix</span>
+          <img src="../visuals/06_scatter_undervalued_super_lig_gems.png" alt="Undervalued Gems Scatter" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Undervalued Süper Lig Targets</h3>
+          <div class="card-subtitle">Market Value vs Attacking Output (npxG + xA / 90)</div>
+          <p class="card-desc">
+            Directly highlights Taofeek Ismaheel (€1.5M), Damian Rasak (€1.8M), and Luka Zahović (€0.9M) as high-leverage signings for Turkish clubs.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Target Cap: <strong>&lt; €2.5M</strong></span>
+            <span class="kpi-pill">Gems: <strong>Ismaheel, Rasak, Szala</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Passing Network -->
+      <div class="card" data-cat="tactical">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/07_gornik_passing_network.png', 'Górnik Zabrze Passing Network', 'Starting XI passing network with line thickness proportional to pass volume and node sizes mapped to touches.')">
+          <span class="card-tag">Tactical Network</span>
+          <img src="../visuals/07_gornik_passing_network.png" alt="Górnik Passing Network" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Starting XI Passing Network</h3>
+          <div class="card-subtitle">Build-Up Shape & Interaction Frequency Channels</div>
+          <p class="card-desc">
+            Visualizes Górnik's left-side overload (Janicki → Janża → Rasak → Podolski) and rapid weak-side switches to Ismaheel in 1v1 situations.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Centralization: <strong>44.8%</strong></span>
+            <span class="kpi-pill">Left-Side Volume: <strong>42.1%</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Defensive Territory -->
+      <div class="card" data-cat="tactical">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/08_gornik_defensive_territory_ppda.png', 'Defensive Territory & PPDA Density', 'Kernel Density Heatmap of defensive events, high turnovers, and mean defensive line height (46.8m).')">
+          <span class="card-tag">Tactical Heatmap</span>
+          <img src="../visuals/08_gornik_defensive_territory_ppda.png" alt="Defensive Territory" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Defensive Territory & Pressing</h3>
+          <div class="card-subtitle">PPDA Density & High Turnover Zones | Ekstraklasa Top 4</div>
+          <p class="card-desc">
+            Details Górnik's aggressive mid-to-high block (9.1 PPDA vs 11.4 league median) and exposes tactical space behind the advanced left wing-back.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">PPDA: <strong>9.1 (League 4th)</strong></span>
+            <span class="kpi-pill">Def Line: <strong>46.8 meters</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. Expected Threat Grid -->
+      <div class="card" data-cat="tactical">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/09_gornik_expected_threat_xt_grid.png', 'Expected Threat (xT) Pitch Grid', '12x8 spatial grid evaluating danger added via open-play passing and carries. Peak threat occurs in left half-space.')">
+          <span class="card-tag">Spatial Model (xT)</span>
+          <img src="../visuals/09_gornik_expected_threat_xt_grid.png" alt="Expected Threat Grid" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Open-Play Expected Threat (xT)</h3>
+          <div class="card-subtitle">Karun Singh 12×8 Pitch Transition Matrix</div>
+          <p class="card-desc">
+            Quantifies probability of goal creation across each pitch zone. Identifies Podolski's operating sector (+0.42 xT) as the decisive offensive zone.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Peak Zone: <strong>+0.42 xT (Left Half)</strong></span>
+            <span class="kpi-pill">Resolution: <strong>12x8 Grid</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. Set-Piece & Corner Delivery (NEW SPECIALTY) -->
+      <div class="card" data-cat="tactical">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/14_set_piece_corner_routines.png', 'Set-Piece & Corner Delivery Analysis', 'Inswinging and outswinging delivery trajectories, first-contact targets (Janicki, Szcześniak), and goalkeeper blocking routines.')">
+          <span class="card-tag">Coach Specialization</span>
+          <img src="../visuals/14_set_piece_corner_routines.png" alt="Corner Kick Routines" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Duran Top & Korner Organizasyonları</h3>
+          <div class="card-subtitle">Erik Janża Servisleri & İlk Temas Hedef Haritası</div>
+          <p class="card-desc">
+            Teknik direktörlerin maç öncesi talep ettiği korner haritası. Sağdan içe kavisli Janża ortalarında Janicki ve Szcześniak koşuları ile Podolski'nin yay üstü tehlikesi.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Set-Piece xG: <strong>9.1 xG (Lig 3.)</strong></span>
+            <span class="kpi-pill">Sağ Korner: <strong>%58 İçe Kavis</strong></span>
+            <span class="kpi-pill">Blokçu: <strong>D. Rasak</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. Goalkeeper Distribution & Shot-Stopping (NEW SPECIALTY) -->
+      <div class="card" data-cat="tactical">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/15_goalkeeper_distribution_profile.png', 'Goalkeeper Distribution & Shot Stopping: Filip Majchrowicz', 'Short build-up distribution vs long direct launches, and Post-Shot xG prevented benchmarking.')">
+          <span class="card-tag">Opponent Prep</span>
+          <img src="../visuals/15_goalkeeper_distribution_profile.png" alt="Goalkeeper Profile" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Kaleci Dağıtım & Kurtarış Profili</h3>
+          <div class="card-subtitle">Filip Majchrowicz (#1) Pas Haritası & Kurtarış Yüzdeleri</div>
+          <p class="card-desc">
+            Rakip analizinde pres tetikleyicisi olan kaleci pas kanalları: Janża'ya lateral çıkışlar (%48) ve Ismaheel'e uzun hava topları. Ceza sahası dışı %88.2 kurtarış başarısı.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">PSxG Diff: <strong>+0.18 / 90 (84th)</strong></span>
+            <span class="kpi-pill">Ceza Sahası İçi: <strong>%68.5 (76th)</strong></span>
+            <span class="kpi-pill">Kısa Pas: <strong>%84.1 (81st)</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12. Shot Map -->
+      <div class="card" data-cat="match">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/10_match_shot_map_xg_constellation.png', 'Match Shot Map: Górnik 2–1 Legia', 'Half-pitch shot constellation with circle sizes proportional to xG and colors mapped to outcomes.')">
+          <span class="card-tag">Match Debrief</span>
+          <img src="../visuals/10_match_shot_map_xg_constellation.png" alt="Shot Map" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Shot Map & xG Constellation</h3>
+          <div class="card-subtitle">Górnik Zabrze 2–1 Legia Warszawa | 2.15 vs 1.18 xG</div>
+          <p class="card-desc">
+            Complete spatial representation of 14 shots taken, high-value central box entries, and match-winning finishes by Zahović and Podolski.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Result: <strong>2 - 1 Win</strong></span>
+            <span class="kpi-pill">Total xG: <strong>2.15 vs 1.18</strong></span>
+            <span class="kpi-pill">xG/Shot: <strong>0.154</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 13. xG Flow & Momentum -->
+      <div class="card" data-cat="match">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/11_match_xg_flow_momentum.png', 'Cumulative xG Flow & Game Momentum', 'Step-chart showing cumulative opportunity progression with 5-minute rolling momentum bars.')">
+          <span class="card-tag">Momentum Timeline</span>
+          <img src="../visuals/11_match_xg_flow_momentum.png" alt="xG Flow Timeline" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Cumulative xG Flow & Momentum</h3>
+          <div class="card-subtitle">Minute-by-Minute Game State Tracking</div>
+          <p class="card-desc">
+            Visualizes first-half dominance, Legia's 58th-minute counter-punch, and Górnik's late +0.9 momentum surge ending in the 81st-minute winner.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Key Turning Point: <strong>81' Podolski</strong></span>
+            <span class="kpi-pill">Spells: <strong>15-35' & 70-88'</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 14. Squad Age Curve & Lifecycle (NEW SPECIALTY) -->
+      <div class="card" data-cat="recruitment">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/16_squad_age_curve_lifecycle.png', 'Squad Planning & Age-Curve Lifecycle', 'Minutes played vs age distribution across Development (<23), Prime (24-29), and Veteran (30+) tiers with bubble size mapped to market value.')">
+          <span class="card-tag">Director Specialization</span>
+          <img src="../visuals/16_squad_age_curve_lifecycle.png" alt="Squad Age Curve" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Kadro Yaş Eğrisi & Yenilenme Denetimi</h3>
+          <div class="card-subtitle">Sportif Direktörlük Sezon Öncesi Kadro Planlama Matrisi</div>
+          <p class="card-desc">
+            Süper Lig kulüpleri için kritik transfer planlama modeli: Dominik Szala (20, €1.8M) gibi yüksek satış potansiyelli U23 varlıkları ve Podolski/Janża gibi 30+ emektarlar için halef planlaması.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Prime Süre: <strong>%54.2</strong></span>
+            <span class="kpi-pill">U23 Gençlik: <strong>%22.5</strong></span>
+            <span class="kpi-pill">En Yüksek Varlık: <strong>Szala (€1.8M)</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 15. League Macro xG Quadrant -->
+      <div class="card" data-cat="ai">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/12_ekstraklasa_xg_quadrant_matrix.png', 'Ekstraklasa xG Performance Quadrant', 'xG Created vs xGA Conceded per 90 across all 18 Polish clubs. Górnik Zabrze is firmly in the Dominant Contenders quadrant.')">
+          <span class="card-tag">Macro League Analytics</span>
+          <img src="../visuals/12_ekstraklasa_xg_quadrant_matrix.png" alt="League Matrix" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">League Performance Quadrant</h3>
+          <div class="card-subtitle">xG For vs xGA Conceded per 90 | 18 Ekstraklasa Clubs</div>
+          <p class="card-desc">
+            Demonstrates Górnik's underlying sustainability (+1.53 xG/90 vs 1.02 xGA/90) and maps market inefficiencies across the Polish league.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Górnik xG: <strong>1.53/90 (4th)</strong></span>
+            <span class="kpi-pill">Górnik xGA: <strong>1.02/90 (3rd)</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 16. AI Archetype Clusters -->
+      <div class="card" data-cat="ai">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/13_ai_player_archetype_clusters.png', 'AI Player Archetype Clustering', 'Unsupervised K-Means clustering (k=4) with PCA dimensionality reduction on 10 performance metrics.')">
+          <span class="card-tag">AI / Machine Learning</span>
+          <img src="../visuals/13_ai_player_archetype_clusters.png" alt="AI Clustering" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">AI Player Archetype Clustering</h3>
+          <div class="card-subtitle">Unsupervised K-Means & PCA (10 Metrics / 90)</div>
+          <p class="card-desc">
+            Translates complex multi-variable event statistics into 4 discrete tactical archetypes, powering rapid positional-twin discovery for Süper Lig squads.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Model: <strong>K-Means (k=4) + PCA</strong></span>
+            <span class="kpi-pill">Variance: <strong>63.0% (PC1+PC2)</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div class="modal" id="imageModal" onclick="closeModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">Visualization Detail</div>
+        <button class="close-btn" onclick="closeModal()">&times;</button>
+      </div>
+      <img src="" alt="Expanded Visual" class="modal-img" id="modalImg">
+      <div class="modal-footer" id="modalDesc"></div>
+    </div>
+  </div>
+
+  <script>
+    function filterCategory(cat) {
+      const btns = document.querySelectorAll('.tab-btn');
+      btns.forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function openModal(src, title, desc) {
+      document.getElementById('modalImg').src = src;
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('modalDesc').innerText = desc;
+      document.getElementById('imageModal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('imageModal').classList.remove('active');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+  </script>
+</body>
+</html>
