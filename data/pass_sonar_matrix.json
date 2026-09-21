@@ -1,0 +1,242 @@
+{
+  "Damian Rasak": {
+    "role": "Defensive Anchor / Deep-Lying Playmaker",
+    "club": "G\u00f3rnik Zabrze",
+    "total_passes_p90": 58.4,
+    "completion_pct": 88.2,
+    "sectors_30deg": [
+      {
+        "angle_deg": 0,
+        "label": "Direct Forward",
+        "freq_pct": 14.5,
+        "avg_dist_m": 27.2
+      },
+      {
+        "angle_deg": 30,
+        "label": "Forward-Right",
+        "freq_pct": 16.0,
+        "avg_dist_m": 28.5
+      },
+      {
+        "angle_deg": 60,
+        "label": "Diagonal-Right",
+        "freq_pct": 12.0,
+        "avg_dist_m": 26.8
+      },
+      {
+        "angle_deg": 90,
+        "label": "Lateral-Right",
+        "freq_pct": 8.0,
+        "avg_dist_m": 22.4
+      },
+      {
+        "angle_deg": 120,
+        "label": "Backward-Right",
+        "freq_pct": 7.0,
+        "avg_dist_m": 20.1
+      },
+      {
+        "angle_deg": 150,
+        "label": "Diagonal-Back-Right",
+        "freq_pct": 6.0,
+        "avg_dist_m": 18.2
+      },
+      {
+        "angle_deg": 180,
+        "label": "Direct Backward",
+        "freq_pct": 5.0,
+        "avg_dist_m": 12.5
+      },
+      {
+        "angle_deg": 210,
+        "label": "Diagonal-Back-Left",
+        "freq_pct": 4.0,
+        "avg_dist_m": 11.2
+      },
+      {
+        "angle_deg": 240,
+        "label": "Backward-Left",
+        "freq_pct": 5.0,
+        "avg_dist_m": 12.0
+      },
+      {
+        "angle_deg": 270,
+        "label": "Lateral-Left",
+        "freq_pct": 6.0,
+        "avg_dist_m": 14.5
+      },
+      {
+        "angle_deg": 300,
+        "label": "Diagonal-Left",
+        "freq_pct": 10.0,
+        "avg_dist_m": 21.0
+      },
+      {
+        "angle_deg": 330,
+        "label": "Forward-Left",
+        "freq_pct": 6.5,
+        "avg_dist_m": 23.5
+      }
+    ]
+  },
+  "Erik Jan\u017ca": {
+    "role": "Attacking Left Wingback / Overlapping Crosser",
+    "club": "G\u00f3rnik Zabrze",
+    "total_passes_p90": 52.8,
+    "completion_pct": 79.1,
+    "sectors_30deg": [
+      {
+        "angle_deg": 0,
+        "label": "Flank Straight Forward",
+        "freq_pct": 24.0,
+        "avg_dist_m": 34.8
+      },
+      {
+        "angle_deg": 30,
+        "label": "Forward-Inside",
+        "freq_pct": 22.0,
+        "avg_dist_m": 32.4
+      },
+      {
+        "angle_deg": 60,
+        "label": "Diagonal Cross",
+        "freq_pct": 18.0,
+        "avg_dist_m": 26.5
+      },
+      {
+        "angle_deg": 90,
+        "label": "Cutback Center",
+        "freq_pct": 8.0,
+        "avg_dist_m": 16.2
+      },
+      {
+        "angle_deg": 120,
+        "label": "Recycle Midfield",
+        "freq_pct": 3.0,
+        "avg_dist_m": 14.0
+      },
+      {
+        "angle_deg": 150,
+        "label": "Recycle Deep",
+        "freq_pct": 2.0,
+        "avg_dist_m": 11.0
+      },
+      {
+        "angle_deg": 180,
+        "label": "Direct Backward",
+        "freq_pct": 2.0,
+        "avg_dist_m": 9.8
+      },
+      {
+        "angle_deg": 210,
+        "label": "Safety Back",
+        "freq_pct": 2.0,
+        "avg_dist_m": 10.2
+      },
+      {
+        "angle_deg": 240,
+        "label": "Back Inside",
+        "freq_pct": 3.0,
+        "avg_dist_m": 12.0
+      },
+      {
+        "angle_deg": 270,
+        "label": "Touchline Reset",
+        "freq_pct": 3.0,
+        "avg_dist_m": 13.5
+      },
+      {
+        "angle_deg": 300,
+        "label": "Flank Down-line",
+        "freq_pct": 8.0,
+        "avg_dist_m": 21.5
+      },
+      {
+        "angle_deg": 330,
+        "label": "Early Curved Ball",
+        "freq_pct": 15.0,
+        "avg_dist_m": 28.0
+      }
+    ]
+  },
+  "Gabriel Sara": {
+    "role": "Central Creator / Box-to-Box Conductor",
+    "club": "Galatasaray",
+    "total_passes_p90": 62.1,
+    "completion_pct": 86.4,
+    "sectors_30deg": [
+      {
+        "angle_deg": 0,
+        "label": "Forward Vertical",
+        "freq_pct": 18.0,
+        "avg_dist_m": 24.5
+      },
+      {
+        "angle_deg": 30,
+        "label": "Right Halfspace",
+        "freq_pct": 15.0,
+        "avg_dist_m": 22.8
+      },
+      {
+        "angle_deg": 60,
+        "label": "Right Wing Switch",
+        "freq_pct": 14.0,
+        "avg_dist_m": 31.2
+      },
+      {
+        "angle_deg": 90,
+        "label": "Lateral Square",
+        "freq_pct": 9.0,
+        "avg_dist_m": 18.5
+      },
+      {
+        "angle_deg": 120,
+        "label": "Recycle Pivot",
+        "freq_pct": 6.0,
+        "avg_dist_m": 14.2
+      },
+      {
+        "angle_deg": 150,
+        "label": "Back Diagonal",
+        "freq_pct": 5.0,
+        "avg_dist_m": 12.8
+      },
+      {
+        "angle_deg": 180,
+        "label": "Back Center",
+        "freq_pct": 4.0,
+        "avg_dist_m": 11.5
+      },
+      {
+        "angle_deg": 210,
+        "label": "Back Left",
+        "freq_pct": 4.0,
+        "avg_dist_m": 12.0
+      },
+      {
+        "angle_deg": 240,
+        "label": "Recycle CB",
+        "freq_pct": 5.0,
+        "avg_dist_m": 15.1
+      },
+      {
+        "angle_deg": 270,
+        "label": "Left Square",
+        "freq_pct": 7.0,
+        "avg_dist_m": 19.4
+      },
+      {
+        "angle_deg": 300,
+        "label": "Left Halfspace Switch",
+        "freq_pct": 13.0,
+        "avg_dist_m": 28.5
+      },
+      {
+        "angle_deg": 330,
+        "label": "Forward Left Channel",
+        "freq_pct": 16.0,
+        "avg_dist_m": 23.4
+      }
+    ]
+  }
+}

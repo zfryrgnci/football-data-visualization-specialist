@@ -1,0 +1,117 @@
+name,club,league,pos,age,val,xg_p90,npxg_p90,shots_p90,xa_p90,xt_p90,prog_p90,duels_pct,tackles_p90,ppda_induced,composite_impact
+Victor Osimhen,Galatasaray,Süper Lig,ST,27,75.0,0.88,0.82,4.12,0.22,0.18,3.45,54.2,0.85,14.2,6.26
+Gabriel Sara,Galatasaray,Süper Lig,CM,26,22.0,0.24,0.21,1.95,0.38,0.34,8.12,58.6,2.45,9.8,11.3
+Lucas Torreira,Galatasaray,Süper Lig,DM,29,15.0,0.08,0.08,0.65,0.14,0.19,6.85,64.8,4.15,7.4,9.05
+Barış Alper Yılmaz,Galatasaray,Süper Lig,RW/LW,25,21.0,0.36,0.35,2.85,0.25,0.31,5.92,61.2,1.95,8.6,9.51
+Fred,Fenerbahçe,Süper Lig,CM,32,13.0,0.16,0.15,1.45,0.28,0.29,7.85,62.4,3.65,8.1,10.86
+Sebastian Szymański,Fenerbahçe,Süper Lig,AM,26,19.0,0.32,0.3,2.65,0.34,0.32,6.42,52.8,2.85,8.4,10.31
+Dušan Tadić,Fenerbahçe,Süper Lig,LW/AM,37,3.0,0.28,0.2,1.85,0.44,0.42,7.15,46.5,1.15,12.5,11.22
+Sofyan Amrabat,Fenerbahçe,Süper Lig,DM,29,16.0,0.05,0.05,0.45,0.11,0.17,6.95,63.2,3.85,8.8,8.54
+Rafa Silva,Beşiktaş,Süper Lig,AM/RW,32,14.0,0.42,0.4,3.1,0.36,0.39,7.45,49.8,1.45,10.2,10.87
+Gedson Fernandes,Beşiktaş,Süper Lig,CM,27,18.0,0.22,0.22,1.85,0.24,0.31,8.45,66.5,4.45,7.6,11.64
+Ciro Immobile,Beşiktaş,Süper Lig,ST,35,3.5,0.62,0.44,3.45,0.16,0.14,2.15,44.5,0.65,13.8,4.7
+Batista Mendy,Trabzonspor,Süper Lig,DM/CB,25,10.0,0.08,0.08,0.75,0.09,0.18,6.15,68.4,4.85,7.9,8.91
+Simon Banza,Trabzonspor,Süper Lig,ST,29,12.0,0.58,0.48,3.25,0.14,0.16,2.85,56.4,0.95,12.1,5.6
+Edin Višća,Trabzonspor,Süper Lig,RW,35,2.0,0.25,0.25,2.1,0.42,0.36,6.25,48.2,1.65,11.2,10.38
+Okay Yokuşlu,Trabzonspor,Süper Lig,DM,31,3.2,0.09,0.09,0.85,0.1,0.16,5.45,67.2,3.95,8.4,8.02
+Damian Rasak,Górnik Zabrze,Ekstraklasa,DM,29,1.2,0.12,0.12,1.15,0.18,0.22,7.45,67.4,4.68,7.8,10.1
+Lukas Podolski,Górnik Zabrze,Ekstraklasa,AM,40,0.3,0.28,0.28,2.65,0.38,0.34,7.95,46.8,0.85,14.5,10.17
+Erik Janża,Górnik Zabrze,Ekstraklasa,LB,32,1.0,0.08,0.08,0.95,0.34,0.36,8.12,61.5,3.25,8.9,11.83
+Patrik Hellebrand,Górnik Zabrze,Ekstraklasa,CM,26,0.8,0.11,0.11,1.05,0.21,0.24,6.85,59.2,2.95,8.7,9.22
+Taofeek Ismaheel,Górnik Zabrze,Ekstraklasa,RW,25,1.5,0.31,0.31,2.45,0.28,0.29,6.15,55.4,1.75,9.4,9.2
+Luka Zahović,Górnik Zabrze,Ekstraklasa,ST,30,0.9,0.44,0.44,2.85,0.16,0.15,2.95,49.5,1.15,11.2,5.47
+Kamil Lukoszek,Górnik Zabrze,Ekstraklasa,LW,23,1.0,0.26,0.26,2.15,0.22,0.23,5.45,53.8,2.15,9.1,8.13
+Josema,Górnik Zabrze,Ekstraklasa,CB,29,0.9,0.04,0.04,0.35,0.05,0.12,5.12,69.2,3.85,8.1,7.24
+Rafał Szale,Górnik Zabrze,Ekstraklasa,RB,19,1.8,0.06,0.06,0.55,0.18,0.22,5.85,62.1,3.45,8.5,8.82
+Kryspin Szcześniak,Górnik Zabrze,Ekstraklasa,CB,24,1.2,0.05,0.05,0.45,0.06,0.11,4.85,67.8,4.15,7.9,7.16
+Afonso Sousa,Lech Poznań,Ekstraklasa,AM,25,3.5,0.34,0.34,2.75,0.32,0.31,7.15,53.4,2.15,9.2,10.07
+Mikael Ishak,Lech Poznań,Ekstraklasa,ST,32,2.5,0.64,0.52,3.65,0.19,0.17,2.95,52.8,0.95,11.5,5.84
+Taras Romanczuk,Jagiellonia,Ekstraklasa,DM,34,1.2,0.09,0.09,0.75,0.12,0.15,5.95,66.5,4.25,8.2,8.27
+Jesús Imaz,Jagiellonia,Ekstraklasa,AM/ST,35,1.0,0.48,0.44,3.15,0.31,0.28,5.15,47.8,1.25,11.8,8.4
+Ante Crnac,Ex-Raków/Norwich,Ekstraklasa,ST/RW,22,11.0,0.46,0.46,2.95,0.24,0.25,4.85,57.5,1.65,9.5,8.12
+Bartosz Slisz,Ex-Legia/Atlanta,Ekstraklasa,DM,26,5.0,0.07,0.07,0.65,0.14,0.21,7.25,65.8,4.45,7.5,9.59
+Player 1,Pogoń,Ekstraklasa,RB,24,2.7,0.06,0.06,0.25,0.06,0.17,4.83,64.3,4.0,13.6,7.7
+Player 2,Legia,Ekstraklasa,CM,18,2.2,0.1,0.1,0.88,0.19,0.22,6.46,66.6,3.13,10.5,9.07
+Player 3,Beşiktaş,Süper Lig,LB,20,0.8,0.09,0.09,0.51,0.18,0.17,3.55,77.1,3.8,9.0,8.03
+Player 4,Legia,Ekstraklasa,LB,29,2.2,0.06,0.06,0.62,0.05,0.26,4.54,72.6,3.22,8.7,8.54
+Player 5,Fenerbahçe,Süper Lig,LW,27,8.5,0.45,0.45,2.26,0.35,0.41,4.81,47.9,1.26,9.3,10.01
+Player 6,Fenerbahçe,Süper Lig,CB,30,9.9,0.03,0.03,0.2,0.21,0.09,7.45,74.4,2.96,12.1,8.09
+Player 7,Galatasaray,Süper Lig,CM,27,6.4,0.11,0.11,0.9,0.12,0.3,7.56,62.6,2.95,12.2,9.93
+Player 8,Beşiktaş,Süper Lig,RW,18,14.6,0.31,0.31,1.86,0.44,0.39,7.03,48.5,1.53,8.2,11.04
+Player 9,Jagiellonia,Ekstraklasa,LB,34,0.8,0.05,0.05,0.38,0.15,0.26,4.5,68.6,4.24,9.4,9.26
+Player 10,Raków,Ekstraklasa,CB,23,3.2,0.06,0.06,0.49,0.09,0.16,7.03,67.2,2.78,9.3,8.01
+Player 11,Galatasaray,Süper Lig,AM,30,18.9,0.44,0.44,2.27,0.2,0.34,5.96,48.3,1.36,9.6,9.03
+Player 12,Galatasaray,Süper Lig,AM,34,6.2,0.22,0.22,3.2,0.26,0.29,6.94,55.7,1.39,13.8,9.25
+Player 13,Widzew,Ekstraklasa,CM,18,2.2,0.16,0.16,0.61,0.22,0.24,6.98,65.7,4.22,9.1,10.07
+Player 14,Başakşehir,Süper Lig,AM,19,12.3,0.38,0.38,1.86,0.33,0.27,7.42,49.8,1.44,11.9,9.3
+Player 15,Jagiellonia,Ekstraklasa,RW,24,4.7,0.25,0.25,1.96,0.37,0.32,7.78,47.1,1.64,13.2,10.19
+Player 16,Legia,Ekstraklasa,CB,34,2.7,0.04,0.04,0.48,0.06,0.26,7.1,72.1,3.28,13.3,9.48
+Player 17,Samsunspor,Süper Lig,ST,28,8.2,0.72,0.72,4.45,0.21,0.18,3.28,48.0,1.35,9.5,6.2
+Player 18,Jagiellonia,Ekstraklasa,CB,21,2.2,0.08,0.08,0.73,0.09,0.15,6.49,72.4,4.45,8.1,8.61
+Player 19,Widzew,Ekstraklasa,DM,31,3.3,0.15,0.15,1.34,0.28,0.23,8.49,64.1,3.64,13.1,10.41
+Player 20,Piast,Ekstraklasa,RW,21,1.3,0.21,0.21,2.32,0.36,0.28,7.79,59.3,2.39,13.5,10.38
+Player 21,Pogoń,Ekstraklasa,RW,18,4.4,0.22,0.22,2.35,0.28,0.28,5.44,52.3,1.68,13.5,8.71
+Player 22,Raków,Ekstraklasa,DM,19,1.9,0.09,0.09,1.22,0.15,0.2,8.3,59.9,4.5,10.2,9.73
+Player 23,Piast,Ekstraklasa,LB,21,0.9,0.08,0.08,0.5,0.18,0.22,6.68,76.2,3.28,11.3,9.46
+Player 24,Lech Poznań,Ekstraklasa,DM,34,3.1,0.06,0.06,0.78,0.25,0.21,5.92,65.3,4.65,8.1,9.64
+Player 25,Legia,Ekstraklasa,RW,25,1.5,0.4,0.4,2.41,0.44,0.34,5.63,56.9,1.55,7.7,10.21
+Player 26,Sivasspor,Süper Lig,CB,29,3.8,0.05,0.05,0.73,0.08,0.11,4.5,70.8,4.14,13.7,7.2
+Player 27,Sivasspor,Süper Lig,CM,20,15.5,0.09,0.09,0.55,0.16,0.28,5.55,59.6,2.91,12.1,9.04
+Player 28,Raków,Ekstraklasa,CM,24,0.9,0.11,0.11,0.84,0.18,0.26,5.66,71.3,4.93,13.6,10.18
+Player 29,Samsunspor,Süper Lig,CM,30,7.5,0.08,0.08,1.25,0.11,0.26,5.59,66.2,5.06,11.7,9.78
+Player 30,Jagiellonia,Ekstraklasa,CM,29,1.1,0.12,0.12,0.52,0.27,0.3,6.15,59.0,3.04,11.9,9.97
+Player 31,Piast,Ekstraklasa,LW,26,3.3,0.34,0.34,3.15,0.37,0.31,7.78,45.6,1.74,10.3,10.07
+Player 32,Beşiktaş,Süper Lig,ST,20,19.1,0.52,0.52,3.36,0.14,0.19,2.75,56.9,1.27,12.4,6.08
+Player 33,Lech Poznań,Ekstraklasa,ST,33,5.8,0.51,0.51,3.21,0.13,0.11,2.12,57.3,1.26,11.9,4.87
+Player 34,Raków,Ekstraklasa,CM,22,2.6,0.1,0.1,0.62,0.16,0.26,7.98,69.1,4.7,7.9,10.74
+Player 35,Başakşehir,Süper Lig,RW,28,5.4,0.4,0.4,2.4,0.44,0.37,7.43,58.0,2.29,10.1,11.57
+Player 36,Fenerbahçe,Süper Lig,CM,22,6.8,0.09,0.09,1.27,0.2,0.3,8.41,61.3,4.98,12.1,11.42
+Player 37,Legia,Ekstraklasa,DM,24,1.2,0.12,0.12,0.57,0.26,0.17,7.13,58.2,3.92,8.3,9.09
+Player 38,Galatasaray,Süper Lig,RW,30,19.6,0.27,0.27,2.92,0.3,0.33,4.79,52.9,1.77,11.1,9.22
+Player 39,Piast,Ekstraklasa,DM,28,4.5,0.21,0.21,0.88,0.15,0.27,5.75,60.3,3.32,12.0,9.16
+Player 40,Widzew,Ekstraklasa,CB,28,1.9,0.04,0.04,0.35,0.24,0.26,5.32,71.9,3.14,9.8,9.51
+Player 41,Trabzonspor,Süper Lig,CM,26,3.1,0.09,0.09,0.85,0.18,0.16,6.42,63.8,4.25,8.0,8.71
+Player 42,Beşiktaş,Süper Lig,CM,32,9.1,0.21,0.21,1.51,0.11,0.3,7.32,60.3,3.79,13.9,10.12
+Player 43,Raków,Ekstraklasa,CB,34,3.5,0.09,0.09,0.85,0.14,0.16,4.59,62.9,4.49,14.0,7.99
+Player 44,Başakşehir,Süper Lig,CM,22,15.9,0.18,0.18,0.77,0.17,0.19,6.18,61.5,3.46,12.4,8.52
+Player 45,Widzew,Ekstraklasa,RB,24,3.1,0.07,0.07,0.65,0.15,0.23,5.58,75.6,3.77,10.1,9.28
+Player 46,Widzew,Ekstraklasa,LB,32,2.4,0.08,0.08,0.69,0.17,0.24,7.11,71.9,4.76,11.1,10.35
+Player 47,Raków,Ekstraklasa,AM,23,4.4,0.33,0.33,2.44,0.43,0.3,6.33,55.5,2.24,12.5,10.21
+Player 48,Pogoń,Ekstraklasa,LW,23,1.8,0.34,0.34,1.98,0.28,0.36,5.34,46.1,1.37,8.4,9.31
+Player 49,Samsunspor,Süper Lig,AM,20,7.7,0.44,0.44,2.28,0.33,0.42,6.61,48.4,2.27,7.7,11.15
+Player 50,Başakşehir,Süper Lig,CB,29,1.5,0.04,0.04,0.7,0.12,0.18,6.26,62.6,4.34,13.2,8.66
+Player 51,Başakşehir,Süper Lig,ST,21,10.2,0.67,0.67,3.74,0.21,0.12,2.46,47.9,0.94,10.5,5.0
+Player 52,Kasımpaşa,Süper Lig,RB,24,1.8,0.07,0.07,0.52,0.22,0.23,3.62,75.9,3.31,12.3,8.67
+Player 53,Widzew,Ekstraklasa,CB,34,2.0,0.04,0.04,0.83,0.11,0.1,7.06,71.5,4.06,8.1,8.08
+Player 54,Fenerbahçe,Süper Lig,RB,25,11.8,0.05,0.05,0.48,0.07,0.14,4.95,72.3,3.81,11.4,7.58
+Player 55,Cracovia,Ekstraklasa,CM,23,1.0,0.11,0.11,1.6,0.19,0.29,5.79,69.3,2.93,7.6,9.66
+Player 56,Samsunspor,Süper Lig,DM,19,13.2,0.15,0.15,1.57,0.27,0.15,8.72,64.9,4.53,11.0,9.92
+Player 57,Pogoń,Ekstraklasa,CM,23,1.1,0.21,0.21,1.5,0.23,0.18,7.93,65.4,4.5,10.8,9.84
+Player 58,Başakşehir,Süper Lig,RW,18,3.8,0.3,0.3,1.92,0.31,0.34,6.42,48.0,2.09,7.5,9.95
+Player 59,Widzew,Ekstraklasa,RB,23,3.3,0.05,0.05,0.78,0.11,0.27,6.82,77.4,2.79,8.7,9.64
+Player 60,Piast,Ekstraklasa,DM,25,4.2,0.19,0.19,1.32,0.24,0.29,8.22,60.6,3.37,9.6,10.65
+Player 61,Fenerbahçe,Süper Lig,RB,25,10.9,0.06,0.06,0.39,0.12,0.17,4.71,74.0,3.66,10.0,8.04
+Player 62,Samsunspor,Süper Lig,RB,24,6.7,0.03,0.03,0.7,0.24,0.21,4.84,64.2,4.33,13.3,9.05
+Player 63,Kasımpaşa,Süper Lig,CB,18,1.8,0.08,0.08,0.8,0.2,0.11,4.32,73.4,3.64,11.0,7.47
+Player 64,Pogoń,Ekstraklasa,RB,32,2.2,0.08,0.08,0.76,0.07,0.13,6.39,73.5,3.97,9.1,8.07
+Player 65,Jagiellonia,Ekstraklasa,RB,23,1.3,0.04,0.04,0.28,0.13,0.14,5.96,76.6,2.82,12.2,7.85
+Player 66,Trabzonspor,Süper Lig,AM,33,15.0,0.4,0.4,2.39,0.43,0.37,5.03,53.6,1.99,13.6,10.42
+Player 67,Sivasspor,Süper Lig,ST,31,15.8,0.44,0.44,2.95,0.11,0.12,3.84,47.3,0.78,10.0,4.99
+Player 68,Fenerbahçe,Süper Lig,AM,26,12.2,0.23,0.23,3.09,0.3,0.4,7.73,52.0,1.83,7.7,11.09
+Player 69,Kasımpaşa,Süper Lig,RB,24,6.5,0.03,0.03,0.37,0.05,0.14,6.62,66.4,3.01,13.8,7.54
+Player 70,Legia,Ekstraklasa,DM,25,1.5,0.14,0.14,0.77,0.21,0.16,7.97,60.9,4.96,7.7,9.61
+Player 71,Piast,Ekstraklasa,RW,18,1.9,0.42,0.42,2.02,0.31,0.34,6.04,51.0,1.93,13.1,9.83
+Player 72,Samsunspor,Süper Lig,RW,31,6.0,0.35,0.35,2.57,0.4,0.42,7.44,58.0,1.73,8.8,11.76
+Player 73,Samsunspor,Süper Lig,DM,32,14.7,0.15,0.15,1.28,0.26,0.24,7.88,69.3,5.17,13.8,11.08
+Player 74,Kasımpaşa,Süper Lig,CM,31,10.8,0.1,0.1,0.74,0.26,0.15,5.78,60.9,2.86,10.2,7.98
+Player 75,Sivasspor,Süper Lig,CM,28,8.3,0.09,0.09,1.22,0.17,0.25,6.38,66.7,3.78,9.4,9.61
+Player 76,Kasımpaşa,Süper Lig,RB,34,6.8,0.09,0.09,0.41,0.14,0.26,6.7,68.8,2.55,11.6,9.24
+Player 77,Cracovia,Ekstraklasa,DM,28,3.8,0.12,0.12,1.19,0.12,0.3,7.78,67.6,4.77,10.7,10.98
+Player 78,Pogoń,Ekstraklasa,CB,23,2.3,0.09,0.09,0.68,0.08,0.08,4.05,76.4,4.51,11.8,7.02
+Player 79,Pogoń,Ekstraklasa,ST,31,2.8,0.37,0.37,3.28,0.11,0.19,2.18,51.7,0.72,9.8,5.36
+Player 80,Sivasspor,Süper Lig,RB,20,2.4,0.1,0.1,0.63,0.12,0.27,4.04,69.7,3.12,13.0,8.63
+Player 81,Beşiktaş,Süper Lig,LW,26,5.8,0.42,0.42,2.41,0.23,0.26,7.05,52.4,2.09,12.8,9.02
+Player 82,Trabzonspor,Süper Lig,RW,23,4.7,0.37,0.37,2.42,0.29,0.27,7.71,47.1,2.44,11.0,9.61
+Player 83,Samsunspor,Süper Lig,CM,34,17.0,0.16,0.16,1.78,0.22,0.29,6.32,64.9,3.33,7.8,10.02
+Player 84,Sivasspor,Süper Lig,ST,24,21.8,0.36,0.36,3.45,0.2,0.14,4.03,57.5,1.35,13.0,6.22
+Player 85,Raków,Ekstraklasa,LB,34,1.8,0.07,0.07,0.55,0.12,0.19,5.42,76.2,3.72,11.2,8.62
