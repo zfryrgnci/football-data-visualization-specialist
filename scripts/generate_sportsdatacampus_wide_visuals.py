@@ -23,6 +23,7 @@ from matplotlib.gridspec import GridSpec
 from scipy.ndimage import gaussian_filter
 from scipy.spatial import Voronoi, ConvexHull
 import math
+import textwrap
 
 WORKSPACE_DIR = r"c:\Users\Superuser\Desktop\Football Data Visualization Specialist"
 WIDE_DIR = os.path.join(WORKSPACE_DIR, "visuals", "wide")
@@ -43,91 +44,102 @@ RED = "#EF4444"
 
 plt.rcParams['font.sans-serif'] = 'DejaVu Sans'
 plt.rcParams['axes.edgecolor'] = BORDER_COLOR
-plt.rcParams['axes.linewidth'] = 0.8
 
-def draw_horizontal_pitch(ax, xlim=(0, 105), ylim=(0, 68), pitch_color="#101726", line_color="#2A3B53"):
-    """Draws a clean, FIFA standard 105x68m horizontal football pitch."""
+def draw_horizontal_pitch(ax, xlim=(-2, 107), ylim=(-2, 70), pitch_color="#101726", line_color="#2A3B53"):
+    """Draws a professional standard 105x68m football pitch oriented horizontally."""
     ax.set_facecolor(pitch_color)
     ax.set_xlim(xlim)
     ax.set_ylim(ylim)
-    ax.set_aspect("equal")
     ax.axis("off")
     
-    # Outer border
-    ax.plot([0, 105, 105, 0, 0], [0, 0, 68, 68, 0], color=line_color, lw=1.5)
-    # Halfway line
-    ax.plot([52.5, 52.5], [0, 68], color=line_color, lw=1.2)
-    # Center circle & spot
-    center_circle = patches.Circle((52.5, 34), 9.15, color=line_color, fill=False, lw=1.2)
-    ax.add_patch(center_circle)
-    ax.plot(52.5, 34, "o", color=line_color, ms=4)
+    # Outer pitch boundary
+    rect = patches.Rectangle((0, 0), 105, 68, fill=False, color=line_color, lw=1.8)
+    ax.add_patch(rect)
     
-    # Left Penalty Area & 6-Yard Box
-    ax.plot([0, 16.5, 16.5, 0], [13.84, 13.84, 54.16, 54.16], color=line_color, lw=1.2)
-    ax.plot([0, 5.5, 5.5, 0], [24.84, 24.84, 43.16, 43.16], color=line_color, lw=1.0)
+    # Halfway line & Center Circle
+    ax.plot([52.5, 52.5], [0, 68], color=line_color, lw=1.5)
+    circle = patches.Circle((52.5, 34), 9.15, fill=False, color=line_color, lw=1.5)
+    ax.add_patch(circle)
+    ax.plot(52.5, 34, "o", color=line_color, ms=3.5)
+    
+    # Left Penalty Area & Goal Area
+    ax.plot([16.5, 16.5], [13.84, 54.16], color=line_color, lw=1.5)
+    ax.plot([0, 16.5], [54.16, 54.16], color=line_color, lw=1.5)
+    ax.plot([0, 16.5], [13.84, 13.84], color=line_color, lw=1.5)
+    ax.plot([5.5, 5.5], [24.84, 43.16], color=line_color, lw=1.2)
+    ax.plot([0, 5.5], [43.16, 43.16], color=line_color, lw=1.2)
+    ax.plot([0, 5.5], [24.84, 24.84], color=line_color, lw=1.2)
     ax.plot(11, 34, "o", color=line_color, ms=3.5)
     left_arc = patches.Arc((11, 34), 18.3, 18.3, angle=0, theta1=308, theta2=52, color=line_color, lw=1.2)
     ax.add_patch(left_arc)
     
-    # Right Penalty Area & 6-Yard Box
-    ax.plot([105, 88.5, 88.5, 105], [13.84, 13.84, 54.16, 54.16], color=line_color, lw=1.2)
-    ax.plot([105, 99.5, 99.5, 105], [24.84, 24.84, 43.16, 43.16], color=line_color, lw=1.0)
+    # Right Penalty Area & Goal Area
+    ax.plot([88.5, 88.5], [13.84, 54.16], color=line_color, lw=1.5)
+    ax.plot([88.5, 105], [54.16, 54.16], color=line_color, lw=1.5)
+    ax.plot([88.5, 105], [13.84, 13.84], color=line_color, lw=1.5)
+    ax.plot([99.5, 99.5], [24.84, 43.16], color=line_color, lw=1.2)
+    ax.plot([99.5, 105], [43.16, 43.16], color=line_color, lw=1.2)
+    ax.plot([99.5, 105], [24.84, 24.84], color=line_color, lw=1.2)
     ax.plot(94, 34, "o", color=line_color, ms=3.5)
     right_arc = patches.Arc((94, 34), 18.3, 18.3, angle=0, theta1=128, theta2=232, color=line_color, lw=1.2)
     ax.add_patch(right_arc)
 
 def draw_tactical_dashboard(ax_info, badge_text, badge_color, title, subtitle, kpis, tactical_bullets, coach_directive, meta_note="Opta / Wyscout Event Stream • 2025-2026 Season"):
-    """Draws a rich, modular analytical dashboard on the right panel."""
+    """Draws a rich, modular analytical dashboard on the right panel with zero text overlap."""
     ax_info.set_facecolor(CARD_BG)
     ax_info.set_xlim(0, 100)
     ax_info.set_ylim(0, 100)
     ax_info.axis("off")
     
-    # Category badge
-    rect_badge = patches.FancyBboxPatch((4, 91), 92, 5.5, boxstyle="round,pad=0.5", ec=badge_color, fc=badge_color, alpha=0.15)
+    # 1. Category badge
+    rect_badge = patches.FancyBboxPatch((4, 93.5), 92, 4.6, boxstyle="round,pad=0.4", ec=badge_color, fc=badge_color, alpha=0.15)
     ax_info.add_patch(rect_badge)
-    ax_info.text(50, 93.5, badge_text.upper(), color=badge_color, fontsize=10.5, weight="bold", ha="center", va="center")
+    ax_info.text(50, 95.8, badge_text.upper(), color=badge_color, fontsize=8.8, weight="bold", ha="center", va="center")
     
-    # Title & Subtitle
-    ax_info.text(5, 86.5, title, color=TEXT_WHITE, fontsize=15, weight="bold", ha="left")
-    ax_info.text(5, 82.5, subtitle, color=TEXT_MUTED, fontsize=9.5, ha="left")
+    # 2. Title & Subtitle
+    ax_info.text(5, 90.0, title, color=TEXT_WHITE, fontsize=11.2, weight="bold", ha="left", va="center")
+    ax_info.text(5, 87.0, subtitle, color=TEXT_MUTED, fontsize=8.0, ha="left", va="center")
     
-    # Divider
-    ax_info.plot([5, 95], [80, 80], color=BORDER_COLOR, lw=1.2)
+    # 3. Divider 1
+    ax_info.plot([5, 95], [84.8, 84.8], color=BORDER_COLOR, lw=1.0)
     
-    # KPI Grid (4 Stat Cards)
-    ax_info.text(5, 76.5, "KEY PERFORMANCE INDICATORS (KPIs)", color=CYAN, fontsize=9.5, weight="bold")
-    kpi_y = 65.5
+    # 4. KPI Grid (4 Stat Cards)
+    ax_info.text(5, 82.2, "KEY PERFORMANCE INDICATORS (KPIs)", color=CYAN, fontsize=8.2, weight="bold", va="center")
     for idx, (label, val, col) in enumerate(kpis):
-        col_x = 5 if idx % 2 == 0 else 52
-        row_y = kpi_y if idx < 2 else kpi_y - 10.5
-        box = patches.FancyBboxPatch((col_x, row_y), 43, 9.5, boxstyle="round,pad=0.4", ec=col, fc="#0B0E14", lw=1.0)
+        col_x = 5 if idx % 2 == 0 else 51.5
+        row_y = 72.4 if idx < 2 else 63.2
+        box = patches.FancyBboxPatch((col_x, row_y), 43.5, 7.8, boxstyle="round,pad=0.4", ec=col, fc="#0B0E14", lw=1.0)
         ax_info.add_patch(box)
-        ax_info.text(col_x + 21.5, row_y + 5.8, val, color=col, fontsize=13, weight="bold", ha="center", va="center")
-        ax_info.text(col_x + 21.5, row_y + 2.2, label.upper(), color=TEXT_MUTED, fontsize=7.5, ha="center", va="center")
+        ax_info.text(col_x + 21.75, row_y + 4.8, val, color=col, fontsize=11.5, weight="bold", ha="center", va="center")
+        ax_info.text(col_x + 21.75, row_y + 1.8, label.upper(), color=TEXT_MUTED, fontsize=6.8, ha="center", va="center")
     
-    # Divider
-    ax_info.plot([5, 95], [42, 42], color=BORDER_COLOR, lw=1.2)
+    # 5. Divider 2
+    ax_info.plot([5, 95], [60.8, 60.8], color=BORDER_COLOR, lw=1.0)
     
-    # Tactical Bullet Points
-    ax_info.text(5, 38.5, "SPATIAL & TACTICAL DECONSTRUCTION", color=GOLD, fontsize=9.5, weight="bold")
-    b_y = 33.5
+    # 6. Tactical Section Header
+    ax_info.text(5, 58.2, "SPATIAL & TACTICAL DECONSTRUCTION", color=GOLD, fontsize=8.2, weight="bold", va="center")
+    
+    # 7. Tactical Bullet Points (wrapped and dynamic Y positioning)
+    curr_y = 55.0
     for b in tactical_bullets:
-        ax_info.plot(7, b_y + 0.3, "o", color=CYAN, ms=4)
-        ax_info.text(10, b_y, b, color="#E2E8F0", fontsize=8.2, ha="left", va="center", wrap=True)
-        b_y -= 4.2
+        wrapped_b = textwrap.fill(b, width=54)
+        lines = wrapped_b.count("\n") + 1
+        ax_info.plot(7, curr_y - 0.9, "o", color=CYAN, ms=3.5)
+        ax_info.text(10, curr_y, wrapped_b, color="#E2E8F0", fontsize=7.2, ha="left", va="top", linespacing=1.2)
+        curr_y -= (lines * 2.2 + 1.4)
         
-    # Divider
-    ax_info.plot([5, 95], [19, 19], color=BORDER_COLOR, lw=1.2)
+    # 8. Divider 3
+    ax_info.plot([5, 95], [23.5, 23.5], color=BORDER_COLOR, lw=1.0)
     
-    # Coach Directive Callout Box
-    coach_box = patches.FancyBboxPatch((5, 5), 90, 11.5, boxstyle="round,pad=0.5", ec=MAGENTA, fc="#1C1326", lw=1.0)
+    # 9. Coach Directive Callout Box
+    coach_box = patches.FancyBboxPatch((5, 4.2), 90, 17.0, boxstyle="round,pad=0.5", ec=MAGENTA, fc="#1C1326", lw=1.1)
     ax_info.add_patch(coach_box)
-    ax_info.text(8, 13.5, "HEAD COACH DIRECTIVE / MAÇ DİREKTİFİ", color=MAGENTA, fontsize=8.5, weight="bold")
-    ax_info.text(8, 8.5, coach_directive, color="#F8FAFC", fontsize=7.8, ha="left", va="center")
+    ax_info.text(8, 18.7, "HEAD COACH DIRECTIVE / MAÇ DİREKTİFİ", color=MAGENTA, fontsize=7.8, weight="bold", va="center")
+    wrapped_directive = textwrap.fill(coach_directive, width=58)
+    ax_info.text(8, 16.0, wrapped_directive, color="#F8FAFC", fontsize=7.0, ha="left", va="top", linespacing=1.25)
     
-    # Footer Metadata
-    ax_info.text(50, 1.5, meta_note, color="#64748B", fontsize=6.8, ha="center")
+    # 10. Footer Metadata
+    ax_info.text(50, 1.8, meta_note, color="#64748B", fontsize=6.8, ha="center", va="center")
 
 
 # ========================================================================================
