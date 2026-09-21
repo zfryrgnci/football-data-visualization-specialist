@@ -24,23 +24,20 @@
 
       <!-- Primary Action Buttons (PDFs) -->
       <div class="pdf-download-bar" style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
-        <a href="../Zafer_Yorganci_Futbol_CV_TR.pdf" class="btn-pdf primary" target="_blank" style="background: linear-gradient(135deg, #e11d48, #be123c); border-color: #f43f5e;">
-          🇹🇷 Türkçe Futbol CV (2 Sayfa PDF)
+        <a href="../Zafer_Yorganci_Technical_Intelligence_Dossier_2026_EN.pdf" class="btn-pdf primary" target="_blank" style="background: linear-gradient(135deg, #0284c7, #0f172a); border-color: #00F5D4;">
+          🌟 Technical Intelligence Dossier 2026 (EN PDF - 6 Pages)
+        </a>
+        <a href="../Zafer_Yorganci_Teknik_Analiz_ve_Veri_Gorsellestirme_Raporu_2026_TR.pdf" class="btn-pdf primary" target="_blank" style="background: linear-gradient(135deg, #e11d48, #0f172a); border-color: #f43f5e;">
+          🇹🇷 Teknik Analiz & Taktik Raporu 2026 (TR PDF - 6 Sayfa)
         </a>
         <a href="../Zafer_Yorganci_Football_CV_EN.pdf" class="btn-pdf primary" target="_blank">
-          🇬🇧 English Football CV (2-Page PDF)
+          🇬🇧 Football CV (Single-Page PDF)
         </a>
-        <a href="../1_PreMatch_Opposition_Analysis_Gornik_Zabrze.pdf" class="btn-pdf" target="_blank">
-          ⚽ Maç Öncesi Rakip Analiz Dosyası (Teknik Heyet - 7 Sayfa)
+        <a href="../Zafer_Yorganci_Futbol_CV_TR.pdf" class="btn-pdf primary" target="_blank" style="background: linear-gradient(135deg, #e11d48, #be123c); border-color: #f43f5e;">
+          🇹🇷 Futbol CV (Tek Sayfa PDF)
         </a>
-        <a href="../2_Recruitment_Scouting_Transfer_Intelligence.pdf" class="btn-pdf" target="_blank">
-          🎯 Transfer & Scouting Raporu (Sportif Direktörlük - 8 Sayfa)
-        </a>
-        <a href="../3_Season_Audit_Squad_Planning.pdf" class="btn-pdf" target="_blank">
-          📈 Kadro Yaş Eğrisi & Sezon Planlama (Yönetim Kurulu - 4 Sayfa)
-        </a>
-        <a href="../Gornik_Zabrze_Ekstraklasa_2025_2026_Portfolio.pdf" class="btn-pdf primary" target="_blank" style="background: linear-gradient(135deg, #0284c7, #0369a1);">
-          🏆 17 Sayfalık Eksiksiz Master Portfolyo (PDF)
+        <a href="https://github.com/zfryrgnci/football-data-visualization-specialist" class="btn-pdf" target="_blank" style="background: #1e293b; border-color: #38bdf8;">
+          🐙 GitHub Showcase Repo (Code & Models)
         </a>
       </div>
     </div>
@@ -51,7 +48,8 @@
 
     <!-- Category Tabs Navigation -->
     <nav class="tabs-nav">
-      <button class="tab-btn active" onclick="filterCategory('all')">Tüm Çalışmalar (16)</button>
+      <button class="tab-btn active" onclick="filterCategory('all')">Tüm Çalışmalar (22)</button>
+      <button class="tab-btn" onclick="filterCategory('cv-advanced')">🔥 Bilgisayarlı Görü & İleri Analitik (SOTA)</button>
       <button class="tab-btn" onclick="filterCategory('recruitment')">Scouting & Transfer Zekası</button>
       <button class="tab-btn" onclick="filterCategory('tactical')">Taktik & Maç Öncesi Rakip Analizi</button>
       <button class="tab-btn" onclick="filterCategory('match')">Maç Sonu & xG Akışı</button>
@@ -60,6 +58,126 @@
 
     <!-- Visuals Grid -->
     <div class="grid" id="visualsGrid">
+      <!-- 17. Roboflow CV Tracking & 2D Radar -->
+      <div class="card" data-cat="cv-advanced">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/17_roboflow_cv_broadcast_homography_radar.png', 'Computer Vision: Optical Tracking & 2D Radar Minimap', 'YOLOv11x + ByteTrack tracking with Direct Linear Transform (DLT) Homography projecting broadcast video to a 105x68m metric pitch radar (0.142m RMSE) with instantaneous velocity vectors.')">
+          <span class="card-tag" style="background:#00F5D4; color:#000;">Roboflow Sports CV</span>
+          <img src="../visuals/17_roboflow_cv_broadcast_homography_radar.png" alt="Roboflow CV Homography Radar" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Broadcast Optical Tracking & 2D Radar</h3>
+          <div class="card-subtitle">YOLOv11x • ByteTrack • Direct Linear Transform Homography</div>
+          <p class="card-desc">
+            Broadcast camera homography transform mapping player bounding boxes to FIFA standard 2D top-down coordinates with velocity vectors and pressing distances.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">RMSE: <strong>0.142 m</strong></span>
+            <span class="kpi-pill">Inference: <strong>14.8 ms</strong></span>
+            <span class="kpi-pill">Pressing Gap: <strong>12.6 m</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 18. Voronoi Pitch Control -->
+      <div class="card" data-cat="cv-advanced">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/18_eddwebster_voronoi_pitch_control_convex_hulls.png', 'Voronoi Pitch Control & Team Convex Hulls', 'Continuous spatial dominance tessellation (Górnik 58.4% control) paired with outfield team convex hulls calculating compactness area, effective width, and defensive line depth.')">
+          <span class="card-tag" style="background:#FFD166; color:#000;">Edd Webster Spatial</span>
+          <img src="../visuals/18_eddwebster_voronoi_pitch_control_convex_hulls.png" alt="Voronoi Pitch Control" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Voronoi Pitch Control & Convex Hulls</h3>
+          <div class="card-subtitle">Continuous Space Ownership • Team Shape Compactness</div>
+          <p class="card-desc">
+            Full-pitch space partitioning evaluating territorial control percentages between possession phase and opposition low block, overlaying convex hull metrics.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Pitch Control: <strong>58.4%</strong></span>
+            <span class="kpi-pill">Hull Area: <strong>1,185 m²</strong></span>
+            <span class="kpi-pill">Width: <strong>49.8 m</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 19. Tactical Pass Sonars -->
+      <div class="card" data-cat="cv-advanced">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/19_pass_sonar_midfield_engine.png', 'Tactical Pass Sonars — Midfield Engine', '12-sector angular passing directionality charts encoding pass frequency and progressive length (m) for Damian Rasak, Patrik Hellebrand, Erik Janża, and Taofeek Ismaheel.')">
+          <span class="card-tag" style="background:#F72585; color:#fff;">Golazo Pass Sonars</span>
+          <img src="../visuals/19_pass_sonar_midfield_engine.png" alt="Tactical Pass Sonars" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">360° Tactical Pass Sonar Engine</h3>
+          <div class="card-subtitle">12-Sector Polar Directionality • Progressive Pass Length</div>
+          <p class="card-desc">
+            Quantifies passing directionality and progressive pass distance across 360 degrees for Górnik Zabrze's midfield engine, highlighting press-resistant distributors.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Rasak Dist: <strong>28.5 m</strong></span>
+            <span class="kpi-pill">Janża Acc: <strong>79.1%</strong></span>
+            <span class="kpi-pill">Hellebrand: <strong>84.6%</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 20. Markov Expected Threat (xT) -->
+      <div class="card" data-cat="cv-advanced">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/20_markov_xt_progression_channels.png', 'Markov Chain Expected Threat (xT) & Flow Vectors', 'Karun Singh 16x12 pitch transition matrix quantifying threat surfaces, Zone 14 entries, and high-threat line-breaking progression corridors.')">
+          <span class="card-tag" style="background:#8B5CF6; color:#fff;">Markov xT Model</span>
+          <img src="../visuals/20_markov_xt_progression_channels.png" alt="Markov xT Grid" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Markov Chain Expected Threat (xT)</h3>
+          <div class="card-subtitle">Karun Singh 16x12 Matrix • Zone 14 Penetrations</div>
+          <p class="card-desc">
+            Quantifies the probability of goal actions originating from every pitch cell, isolating Górnik Zabrze's highest xT actions from deep midfield to wing overloads.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Janża Flank: <strong>+0.312 xT</strong></span>
+            <span class="kpi-pill">Podolski Z14: <strong>+0.288 xT</strong></span>
+            <span class="kpi-pill">Rasak: <strong>+0.194 xT</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 21. Bivariate Shot Map -->
+      <div class="card" data-cat="cv-advanced">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/21_bivariate_shot_quality_pressure.png', 'Bivariate Shot Map with Defender Pressure', 'Attacking half-pitch bivariate shot map where bubble size denotes Expected Goals (xG) and color reflects defender pressure density index at shot release.')">
+          <span class="card-tag" style="background:#EF4444; color:#fff;">Bivariate xG</span>
+          <img src="../visuals/21_bivariate_shot_quality_pressure.png" alt="Bivariate Shot Map" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Bivariate Shot Quality & Pressure</h3>
+          <div class="card-subtitle">Shot xG Size • Defender Pressure Density • Finishing Efficiency</div>
+          <p class="card-desc">
+            Dual-variable shot map evaluating shot location quality against defensive pressure density, showing +1.14 goal overperformance above cumulative xG.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Total Shots: <strong>23</strong></span>
+            <span class="kpi-pill">Target: <strong>56.5%</strong></span>
+            <span class="kpi-pill">Overperf: <strong>+1.14 xG</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 22. Recruitment Efficiency Frontier -->
+      <div class="card" data-cat="cv-advanced">
+        <div class="card-img-wrapper" onclick="openModal('../visuals/22_worldfootballr_recruitment_frontier.png', 'Recruitment Efficiency Frontier & Market Valuation', 'Multi-league transfer arbitrage model analyzing Transfermarkt market valuations (€M) vs composite tactical action value-added per 90 across Ekstraklasa & Süper Lig targets.')">
+          <span class="card-tag" style="background:#10B981; color:#fff;">worldfootballR</span>
+          <img src="../visuals/22_worldfootballr_recruitment_frontier.png" alt="Recruitment Frontier" class="card-img">
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Recruitment Efficiency Frontier</h3>
+          <div class="card-subtitle">Transfermarkt Valuation • Cross-League Arbitrage Sweet Spot</div>
+          <p class="card-desc">
+            Compares Transfermarkt valuations (€M) with composite match performance, uncovering undervalued Central/Eastern European gems for Turkish Süper Lig clubs.
+          </p>
+          <div class="card-kpis">
+            <span class="kpi-pill">Rasak Val: <strong>€1.2M</strong></span>
+            <span class="kpi-pill">Janża Val: <strong>€1.0M</strong></span>
+            <span class="kpi-pill">Impact: <strong>8.85 / 10</strong></span>
+          </div>
+        </div>
+      </div>
+
 
       <!-- 1. Damian Rasak Radar -->
       <div class="card" data-cat="recruitment">
